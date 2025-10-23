@@ -1,0 +1,78 @@
+
+
+body {
+    border-left: 5px solid lightgray;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+.main-nav ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-nav a {
+    color: lightgray;
+}
+
+.footer-nav ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.footer-nav a {
+    color:tomato;
+    text-decoration: none;
+}
+
+.blog-title {
+    font-size: 30px;
+}
+
+.continues {
+    
+    text-align: right;
+    font-weight: bold;
+}
+
+.continues a{
+    color: tomato;
+    text-decoration: none;
+}
+
+.blog-post::first-letter {
+    color: lightgray;
+    font-size: 400%;
+    float: left;
+    padding-right: 15px;
+}
+
+time {
+    color: lightgray;
+    font-size: 30px;
+}
+
+article {
+    margin-top: 50px;
+}
